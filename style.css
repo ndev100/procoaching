@@ -1,0 +1,145 @@
+
+body {
+    background-color:#100F0F;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+}
+
+.container {
+    width:960px;
+    margin:0 auto;
+}
+
+header {
+    overflow:hidden;
+    margin-bottom: 18px;
+}
+
+.logo {
+    float:left;
+    margin-bottom: 5px;
+    color:white;
+    margin-top: 19px;
+}
+
+.logo img {
+    float:left;
+}
+
+.logotext {
+    float: left;
+}
+
+.logotext .pro {
+    font-size: 32px;
+    padding-left: 20px;
+}
+.logotext .coaching {
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+.slogan {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    background: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.left {
+    float: left;
+    width: 500px;
+    border-right: 1px solid rgba(128, 128, 128, 0.52);
+    padding: 20px 0;
+}
+
+.top {
+    overflow:hidden;
+    float:left;
+    margin-top:50px;
+    margin-left: 10px;
+}
+
+.silhouette-wrapper {
+    overflow: hidden;
+    float: left;
+    border: solid black 10px;
+}
+
+
+.top img {
+    display:block;
+    float:left;
+    border: solid gray 10px;
+}
+
+.contact > div {
+    margin: 18px 0;
+}
+
+.giora {
+    float:left;
+    margin-left:20px;
+}
+
+.bottom {
+    float:left;
+    margin:50px 30px;
+}
+
+.service {
+    margin-bottom: 15px;
+    
+}
+
+.service div {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.right {
+    overflow: hidden;
+    background-color: rgba(105, 105, 141, 0.22);
+    float: right;
+    width: 380px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border: 10px solid grey;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.contact {
+    display:block;
+}
+
+.credits {
+    text-align:center;
+    color: white;
+    font-family:helvetica;
+}
+
+.submit {
+    display: block;
+    text-align: center;
+    width: 290px;
+    margin: 0 auto;
+    height: 70px;
+    color: white;
+    background-color: lightblue;
+    border: 5px solid grey;
+    font-size: 40px;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+.submit:hover {
+    color:purple;
+}
